@@ -1,4 +1,22 @@
-h1 {
-    color: rgb(5, 78, 5);
+h1{
+    color: rgb(10, 22, 128);
     text-decoration: underline;
 }
+/* p {
+    color: rgb(5, 78, 5);
+    text-decoration: underline;
+    text-decoration: dashed;
+} */
+li {
+    list-style-type:square;
+    list-style-position: inside;
+}
+.fcc-btn {
+    background-color: #199319;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: not-allowed;
+    text-decoration:none;
+  }

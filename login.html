@@ -4,40 +4,28 @@
         <title>FW-Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style-login.css">
     </head>
     <body>
+        <div>
+            <h1>Log In</h1>
+        </div>
+        <!-- Login -->
         <form onsubmit="console.log(1)">
             <div>
-              <label for="email">Email</label>
-              <input id="email" type="text" placeholder="Ingrese su correo">
+              <label for="login-email">Email</label>
+              <input id="login-email" type="text" placeholder="Ingrese su correo">
             </div>
             <div>
-              <label for="password">Password</label>
-              <input id="password" type="password">
+              <label for="login-password">Password</label>
+              <input id="login-password" type="password">
             </div>
-            <div>
-              <label for="repeat-password">Repeat Password</label>
-              <input id="repeat-password" type="password">
-            </div>
-            <div>
-              <label for="age">Age</label>
-              <input id="age" type="number" max="999" min="18" maxlength="3">
-            </div>
-            <div>
-              <label for=""></label>
-            </div>
-            <div>
-              <label for="">Types</label>
-              <select>
-                <option value="0">Elija una opción</option>
-                <option value="1">Admin</option>
-                <option value="2">Regular</option>
-              </select>
-            </div>
-            <div>
-              <button type="submit">Confirmar</button>
-            </div>
-          </form>
+            <p>
+                <div>
+                    <a class="btn-login" href="" target="_self">Login</a>
+                    <a class="btn-cancel" href="index.html" target="_self">Cancel</a>
+                </div>
+            </p>   
+        </form>
     </body>
 </html>

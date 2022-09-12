@@ -13,19 +13,27 @@
         <!-- Login -->
         <form onsubmit="console.log(1)">
             <div>
-              <label for="login-email">Email</label>
-              <input id="login-email" type="text" placeholder="Ingrese su correo">
+                <h4>
+                    <label for="login-email">Email:</label>
+                </h4>
+              <input id="login-email" type="text" placeholder="Insert your email">
             </div>
             <div>
-              <label for="login-password">Password</label>
-              <input id="login-password" type="password">
+              <label for="login-password">Password:</label>
+              <input id="login-password" type="password" placeholder="Insert your password">
             </div>
             <p>
                 <div>
                     <a class="btn-login" href="" target="_self">Login</a>
                     <a class="btn-cancel" href="index.html" target="_self">Cancel</a>
                 </div>
-            </p>   
+            </p>
+            <div>
+                <p>New account?</p>
+                <div>
+                    <a class="btn-register" href="register.html" target="_self">Register</a> 
+                </div>
+            </div>
         </form>
     </body>
 </html>

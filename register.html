@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FW-Login</title>
+    <title>FW-Register</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style-register.css">
   </head>
   <body>
     <div>
-      <h1>Log In</h1>
+      <h1>Register</h1>
     </div>
     <!-- New Acount -->
     <form onsubmit="console.log(1)">
       <div>
-        <label for="register-email">Email</label>
-        <input id="register-email" type="text" placeholder="Ingrese su correo">
+        <label for="register-email">Email:</label>
+        <input id="register-email" type="text" placeholder="Insert your email">
       </div>
       <div>
-        <label for="register-password">Password</label>
-        <input id="register-password" type="password">
+        <label for="register-password">Password:</label>
+        <input id="register-password" type="password" placeholder="Insert your password">
       </div>
       <div>
-        <label for="register-repeat-password">Repeat Password</label>
-        <input id="register-repeat-password" type="password">
+        <label for="register-repeat-password">Repeat Password:</label>
+        <input id="register-repeat-password" type="password" placeholder="Repeat your password">
       </div>
       <div>
-        <label for="register-age">Age</label>
-        <input id="register-age" type="number" max="999" min="18" maxlength="3">
+        <label for="register-age">Age:</label>
+        <input id="register-age" type="number" placeholder="Insert your age">
       </div>
       <div>
-        <label for=""></label>
-      </div>
-      <div>
-        <label for="">Types</label>
-      <select>
-        <option value="0">Elija una opción</option>
-        <option value="1">Admin</option>
-        <option value="2">Regular</option>
-      </select>
+        <label for="">Types:</label>
+          <select>
+            <option value="0">Elija una opción</option>
+            <option value="1">Admin</option>
+            <option value="2">Regular</option>
+          </select>
       </div>
         <p>
           <div>
@@ -45,6 +42,12 @@
             <a class="btn-cancel" href="index.html" target="_self">Cancel</a>
           </div>  
         </p>
+        <div>
+          <p>Already have an account?</p>
+          <div>
+            <a class="btn-login" href="login.html" target="_self">Login</a>
+          </div>
+        </div>
     </form>
   </body>
 </html>

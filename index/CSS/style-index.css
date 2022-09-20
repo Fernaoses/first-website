@@ -1,0 +1,42 @@
+body{
+    background-color: #001a2c;
+}
+h1{
+    color: rgb(207, 93, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li,p {
+    color:rgb(194, 78, 0);
+    list-style-type:square;
+    list-style-position: inside;
+    font-size:x-large;
+    
+}
+/* Buttons */
+.btn-login {
+    background-color: #199319;
+    color: rgb(0, 0, 0);
+    padding: 5px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 5px;
+}
+.btn-register {
+    background-color: #199319;
+    color: rgb(0, 0, 0);
+    padding: 5px 18px;
+    align-items:flex-end;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 5px;
+}
+.btn-login:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(6, 170, 0, 0.767);
+}
+.btn-register:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(6, 170, 0, 0.767);
+}

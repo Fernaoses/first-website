@@ -11,34 +11,54 @@
     </head>
     <body>
         <h1 align="center">My first web site</h1>
-        <p class="p-" align="left">Hi, this is my first web page. <br>
-        I hope you can find things that can help you improve your own page.</p>
-        <hr>
-        <P align="left">Things you can find below:</P>
-        <OL>
-            <li>Botons</li>
-            <li>Links</li>
-        </OL>
-
         <!-- Botones menu -->
-        <p>
-            <div>
+        <div class="flex-buttons">
+            <!-- <p> -->
+                <form action="/login/login.html">
+                    <button class = "ghost-button" type="submit">
+                        Click Here
+                    </button>
+                </form>
+                <a class="btn-login" href="login.html" target="_self">Login</a>
+                <a class="btn-register" href="register.html" target="_self">Register</a>
+            <!-- </p> -->
+        </div>
+        <div class="flex-medio">
+            <div class="flex-left-menu">
+                <form action="/login/login.html">
+                    <button class = "ghost-button" type="submit">
+                        Click Here
+                    </button>
+                </form>
                 <a class="btn-login" href="login.html" target="_self">Login</a>
                 <a class="btn-register" href="register.html" target="_self">Register</a>
             </div>
-        </p>
-        <hr>
-        <!-- 
-        <img src="https://cdn.extendoffice.com/images/stories/doc-excel/convert-range-to-column/doc-convert-range-to-column11.png" 
-        alt="doc-convertion-range-a-columna11"><br> 
-        -->
-        
-        <!-- Links -->
-        <div>
-            <A HREF="https://www.youtube.com/channel/UCzMxe3-T_uoL_T-7TlVDGdw" target="_blank">Link to my Youtube</a>  
+            <div class="flex-content">
+                <p class="p-" align="left">Hi, this is my first web page.
+                    I hope you can find things that can help you improve your own page.</p>
+            </div>
         </div>
-        <div>
-            <A HREF="https://github.com/Fernaoses" target="_blank">Link to my GitHub</a>
+                <hr>
+                <P align="left">Things you can find below:</P>
+                <OL>
+                    <li>Botons</li>
+                    <li>Links</li>
+                </OL>
+                
+                <hr>
+                <!-- 
+                    <img src="https://cdn.extendoffice.com/images/stories/doc-excel/convert-range-to-column/doc-convert-range-to-column11.png" 
+                    alt="doc-convertion-range-a-columna11"><br> 
+                -->
+                
+                <!-- Links -->
+        <div class="flex-links">
+            <a HREF="https://github.com/Fernaoses" target="_blank">
+                <img class="img-git" src="/img/png-git.png" alt="Enlace a GitHub">
+            </a>
+            <a HREF="https://www.youtube.com/channel/UCzMxe3-T_uoL_T-7TlVDGdw" target="_blank">
+                <img class="img-youtube" src="/img/png-youtube-2.png" alt="Enlace a Youtube">
+            </a>
         </div>
     </body>
 </html>
